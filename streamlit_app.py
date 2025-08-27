@@ -113,7 +113,7 @@ st.sidebar.slider("Minimum RAM (GB)", 2, 32, 4, disabled=True)
 
 # ---- REMOVE PURPOSE SELECTION: always show all ----
 filtered_df = laptop_df.copy()
-st.info("Showing all laptops (purpose selection removed for the study).")
+
 
 # --- Sort (no purpose ranking) ---
 # If ratingAvg is missing, fill with 0 to avoid sort errors
